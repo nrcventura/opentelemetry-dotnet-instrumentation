@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:9.0.302-alpine3.21@sha256:60bd1997ac6a5d3c838a45256fbf1d7da538f2508eabdccc81f24682be968972
+FROM mcr.microsoft.com/dotnet/sdk:9.0.308-alpine3.21@sha256:28bd5605c0592f5bba90670ccd9af1af2c41c9fb0fbe4e666106791c94d8b60f
 RUN apk update \
     && apk upgrade \
     && apk add --no-cache --update \
